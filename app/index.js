@@ -1,5 +1,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
+var PropTypes = require('prop-types');
 require('./index.css')
 
 
@@ -12,6 +13,8 @@ class App extends React.Component {
         )
     }
 }
+
+
 
 ReactDOM.render(
   <App />,
